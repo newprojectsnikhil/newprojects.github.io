@@ -72,7 +72,7 @@
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
-        window.location.replace("./index.html");
+        window.location.replace("./index2.html");
       }
     };
     // url encode form data for sending as post data
